@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "tongdun/react",
+        "tongdun/typescript"
+    ],
+    "plugins": [
+        "td-rules-plugin"
+    ],
+    "rules": {
+        // import 超过3个..建议使用别名
+        "td-rules-plugin/js-use-alias-path": 0,
+        // 函数最长行数
+        "max-lines-per-function": 0
+    }
+}
